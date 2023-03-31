@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&display=swap');
+
+body{
+    background-color: rgba(116, 255, 167, 0.863);
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+    color: rgb(103, 96, 234);
+    text-align: center;
+}
+
+img{
+    height: 250px;
+    width: 250ps;
+}
+
+.showPageCard{
+    text-align: center;
+}
+
+.pet_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pet_card {
+    flex-basis: 30%;
+    margin: 1%;
+    text-align: center;
+
+  }
+  
+
+/* form css  */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
